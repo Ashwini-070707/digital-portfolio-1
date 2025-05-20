@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      color: white;
+    }
+
+    .hero {
+      background-color: black;
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-image: url(https://tse2.mm.bing.net/th?id=OIP.Ykux80HEohFX62eJf6PjcAHaEK&pid=Api&P=0&h=220);
+       background-size: cover;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+    }
+
+    .section {
+      padding: 60px 20px;
+      /* max-width: 800px; */
+      margin-left:20px;
+      margin: auto;
+      height: 40%;
+      background-image: url(https://tse4.mm.bing.net/th?id=OIP.Is8vNXEGIUpWUGIVSbNjxwHaEK&pid=Api&P=0&h=220);
+      width:100%
+    }
+
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .section.dark {
+      background-color: black;
+      color: white;
+    }
+
+    .project {
+      margin-bottom: 20px;
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      padding: 10px;
+      border: 1px solid black;
+      font-size: 1rem;
+      resize: vertical;
+      width: 50%;
+      margin-left:400px;
+    }
+
+    .contact-form button {
+      background-color: black;
+      color: white;
+      padding: 10px;
+      cursor: pointer;
+      border: none;
+      font-size: 1rem;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background-color: black;
+      color: white;
+    }
+ 
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Anuja Sonawane</h1>
+    <p>Electronics and Telecommunication Engineer | MITAOE</p>
+  </section>
+
+  <!-- About Me -->
+  <section class="section">
+    <h2>Hii ! My name is Anuja Sonawane</h2>
+    <p>
+      I'm a student with a strong interest in technology and innovation. I enjoy working on real-world projects and continuously learning new things. I believe in turning ideas into reality and using technology for the greater good.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section class="section dark">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, C, JavaScript</li>
+      <li>EffectiveCommunication</li>
+      <li>Arts and Rangoli</li>
+      <li>Python Programming</li>
+      <li>Public Speaking & Presentation</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section class="section">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Automatic car parkingsystem</h3>
+      <img src="IMGS/Traffic.jpg" height="400px" width="400px">
+      <p>Used Arduino and IR sensors to build a  smart car parkingsystem.</p>
+    </div>
+    <div class="project">
+      <h3>Traffic signal light</h3>
+      <p>Designed an automated traffic signal system using sensors and microcontrollers to manage vehicle flow efficiently. Ensures reduced traffic congestion and improved road safety.</p>
+    </div>
+    <div class="project">
+      <h3>Cooling Chamber</h3>
+      <img src="IMGS/cooling.jpg"  height="200px" width="200px">
+      <p>Built an energy-efficient chamber to keep items cool using thermoelectric cooling. Designed for compact, low-power preservation.
+.</p>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section class="section dark">
+    <h2>Achievements</h2>
+    <ul>
+      <li>NASSCOM  Certificate(Silver) <br> <a href="IMGS/nsscomm.jpg">CERTIFICATE</a></li>
+      <li>Python Programming Certification <br> <a href="IMGS/python1.jpg">CERTIFICATE1_</a> <t></t> <a href="IMGS/python2.jpg">_CERTIFICATE2</a></li>
+      <li>IYMC Certification <br> <a href="IMGS/iymc.jpg">CERTIFICATE</a></li>
+    </ul>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="section">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="AnujaSonawane" required />
+      <input type="Text" placeholder="anujasonawane2005@gmail.com" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; © Anuja sonawane. All rights reserved.</p>
+  </footer>
+</body>
+</html>
